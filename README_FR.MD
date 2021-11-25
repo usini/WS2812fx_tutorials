@@ -5,6 +5,10 @@ Voir [exemples/WS2812fx/auto_mode_cycle](https://github.com/kitesurfer1404/WS281
 
 https://user-images.githubusercontent.com/2841495/143419751-69e42341-9640-4bab-8265-3c652864d0ad.mp4
 
+# Branchement
+## Seeedstudio XIAO
+![Branchement](led_ws2812b_strip.svg)
+
 # Essayer
 Installer [WS2812fx](https://github.com/kitesurfer1404/WS2812FX) depuis le [gestionnaire de bibliothèques d'Arduino](https://www.awatech.net/2019/10/installer-bibliotheque-arduino.html)
 
