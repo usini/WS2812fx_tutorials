@@ -16,7 +16,7 @@ Installer [WS2812fx](https://github.com/kitesurfer1404/WS2812FX) depuis le [gest
 ```c
 #include <WS2812FX.h>
 #define LED_COUNT 13
-#define LED_PIN 11
+#define LED_PIN 0
 WS2812FX led = WS2812FX(LED_COUNT, LED_PIN, NEO_RGB + NEO_KHZ800);
 
 void setup() {
