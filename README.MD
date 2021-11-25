@@ -1,19 +1,17 @@
 # [Français](README_FR.MD)
 
 # Demo
-
+See [examples/WS2812fx/auto_mode_cycle](https://github.com/kitesurfer1404/WS2812FX/blob/master/examples/auto_mode_cycle/auto_mode_cycle.ino) 
 
 https://user-images.githubusercontent.com/2841495/143419751-69e42341-9640-4bab-8265-3c652864d0ad.mp4
 
-
-
 # Try it
-Install [WS2812fx](https://github.com/kitesurfer1404/WS2812FX) from the Arduino Library Manager
+Install [WS2812fx](https://github.com/kitesurfer1404/WS2812FX) [from the Arduino Library Manager](https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use/library-manager)
 
 ```c
 #include <WS2812FX.h>
 #define LED_COUNT 13
-#define LED_PIN 11
+#define LED_PIN 0
 WS2812FX led = WS2812FX(LED_COUNT, LED_PIN, NEO_RGB + NEO_KHZ800);
 
 void setup() {
@@ -21,7 +19,7 @@ void setup() {
 
   led.init(); // Init LED
   
-  led.setBrightness(100); // Set Brightness (0-255à;
+  led.setBrightness(100); // Set Brightness (0-255);
   led.setSpeed(1000); // Set Speed (in ms)
   
   led.setColor(leds.Color(255,0,0)); // Set Color as R/G/B (Red/Green/Blue)
