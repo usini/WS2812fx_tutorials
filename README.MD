@@ -5,6 +5,10 @@ See [examples/WS2812fx/auto_mode_cycle](https://github.com/kitesurfer1404/WS2812
 
 https://user-images.githubusercontent.com/2841495/143419751-69e42341-9640-4bab-8265-3c652864d0ad.mp4
 
+# Wiring
+## SeeedStudio XIAO
+![Wiring](seeedstudio_xiao_leds.svg)
+
 # Try it
 Install [WS2812fx](https://github.com/kitesurfer1404/WS2812FX) [from the Arduino Library Manager](https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use/library-manager)
 
