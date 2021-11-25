@@ -37,7 +37,7 @@ void loop() {
 }
 ```
 
-# List des effets
+# Liste des effets
 0. **Static** - Une lumière statique
 1. **Blink** - Clignotement. 50% du temps on puis off .
 2. **Breath** - Respiration (très utilisé dans les objets connectés). Vitesse fixe.
