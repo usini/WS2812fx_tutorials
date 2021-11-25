@@ -1,6 +1,6 @@
 
 # [English](README.MD)
-
+Voir [exemples/WS2812fx/auto_mode_cycle](https://github.com/kitesurfer1404/WS2812FX/blob/master/examples/auto_mode_cycle/auto_mode_cycle.ino)
 # Demo
 
 https://user-images.githubusercontent.com/2841495/143419751-69e42341-9640-4bab-8265-3c652864d0ad.mp4
